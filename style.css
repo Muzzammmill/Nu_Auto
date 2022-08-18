@@ -49,6 +49,11 @@
   color: white;
 }
 
+.app-btn a:hover {
+  color: #c11d31;
+  text-decoration: none;
+}
+
 .cards {
   display: flex;
   justify-content: center;
