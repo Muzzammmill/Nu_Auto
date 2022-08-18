@@ -1,0 +1,183 @@
+.nav-item a.active,
+.nav-item a:hover {
+  color: rgba(193, 29, 49, 255) !important;
+  background-color: rgba(25, 83, 159, 255) !important;
+}
+
+@font-face {
+  font-family: RooneySans-Regular;
+  src: url("/fonts/RooneySansRegular.OTF");
+}
+
+* {
+  font-family: RooneySans-Regular;
+  box-sizing: border-box;
+}
+
+.content {
+  margin-top: 50px;
+}
+
+.navbar .navbar-toggler[aria-expanded="true"] {
+  color: #c11d31 !important;
+}
+
+.navbar .navbar-toggler:focus {
+  color: #c11d31;
+}
+
+
+
+.main-content {
+  line-height: 2;
+}
+
+.img img {
+  width: 100%;
+}
+
+.app-btn {
+  background-color: rgba(25, 83, 159, 255);
+  color: white;
+  border-radius: 15px;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  flex-wrap: wrap;
+}
+
+.a_card {
+  box-shadow: 1px 1px 10px 0px rgba(25, 83, 159, 255);
+  width: 280px;
+  padding: 30px;
+  margin: 15px;
+  /* font-size: small; */
+}
+
+.card-logo {
+  width: 25px;
+  border-radius: 50%;
+  margin: 20px 0px;
+}
+
+ul.check {
+  list-style-image: url(images/check-circle.svg);
+}
+
+hr {
+  border: 2px solid #19539f;
+}
+
+.appointment {
+  background-color: #112c4e;
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.footer-links {
+  padding: 10px;
+  color: white;
+  background-color: #19539f;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+i {
+  margin: 10px;
+  padding: 5px;
+}
+
+.centered-heading {
+  text-align: center;
+}
+
+.footer-list {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.email-btn {
+  background-color: white;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  padding: 10px;
+  margin: 10px auto 20px;
+}
+
+.footer-links>div {
+  padding: 30px;
+}
+
+.submit-btn {
+  background-color: red;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 800px) {
+  .rows {
+    display: flex;
+  }
+
+  .row1-col1 {
+    width: 50vw;
+    padding: 70px;
+  }
+
+  .img img {
+    width: 40vw;
+  }
+
+  .content {
+    margin-top: 120px;
+  }
+
+  .img_height {
+    height: 500px;
+  }
+
+  ul.pmp {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 100px;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer-links>div {
+    width: 25%;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
