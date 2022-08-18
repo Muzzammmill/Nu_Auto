@@ -1,7 +1,6 @@
 .nav-item a.active,
 .nav-item a:hover {
   color: rgba(193, 29, 49, 255) !important;
-  background-color: rgba(25, 83, 159, 255) !important;
 }
 
 @font-face {
@@ -44,14 +43,13 @@
   margin-top: 10px;
 }
 
-.app-btn a {
-  text-decoration: none;
-  color: white;
+.app-btn:hover {
+  background-color: #c11d31;
 }
 
-.app-btn a:hover {
-  color: #c11d31;
+.app-btn a {
   text-decoration: none;
+  color: white !important;
 }
 
 .cards {
