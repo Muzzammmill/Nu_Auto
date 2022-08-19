@@ -44,12 +44,13 @@
 }
 
 .app-btn:hover {
-  background-color: #c11d31;
+  border: 1px solid skyblue;
+  background-color: white;
 }
 
 .app-btn a {
   text-decoration: none;
-  color: white !important;
+  color: skyblue !important;
 }
 
 .cards {
