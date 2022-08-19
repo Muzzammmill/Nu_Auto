@@ -31,6 +31,12 @@
   line-height: 2;
 }
 
+.main-content .rows {
+  /* margin-top: 10px; */
+  margin-bottom: 10px;
+  padding: 30px;
+}
+
 .img img {
   width: 100%;
 }
@@ -101,13 +107,11 @@ hr {
 
 .social-icons {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 i {
   margin: 10px;
-  padding: 5px;
 }
 
 .centered-heading {
