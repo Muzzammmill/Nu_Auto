@@ -80,6 +80,11 @@
   margin: 20px 0px;
 }
 
+.our-services {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 ul.check {
   list-style-image: url(images/check-circle.svg);
 }
@@ -103,6 +108,13 @@ hr {
   padding: 10px;
   color: white;
   background-color: #19539f;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-links>div {
+  min-width: 250px;
 }
 
 .social-icons {
@@ -155,6 +167,11 @@ i {
     padding: 70px;
   }
 
+  .our-services {
+    display: flex;
+    flex-direction: row;
+  }
+
   .img img {
     width: 40vw;
   }
@@ -173,15 +190,6 @@ i {
     flex-wrap: wrap;
     width: 500px;
     height: 100px;
-  }
-
-  .cards {
-    flex-wrap: wrap;
-  }
-
-  .footer-links {
-    display: flex;
-    justify-content: space-around;
   }
 
   .footer-links>div {
