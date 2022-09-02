@@ -44,7 +44,7 @@
 .app-btn {
   background-color: rgba(25, 83, 159, 255);
   border-radius: 15px;
-  border: none;
+  border: 1px solid rgba(25, 83, 159, 255);
   padding: 10px;
   margin-top: 10px;
 }
@@ -115,6 +115,7 @@ hr {
 
 .footer-links>div {
   min-width: 250px;
+  padding: 30px;
 }
 
 .social-icons {
@@ -142,10 +143,6 @@ i {
   border: none;
   padding: 10px;
   margin: 10px auto 20px;
-}
-
-.footer-links>div {
-  padding: 30px;
 }
 
 .submit-btn {
